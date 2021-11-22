@@ -16,6 +16,18 @@ const Menu = props => (
                     <Link to="/Soul">Soul</Link>
                 </li>
                 <li>
+                    <Link to="/Blues">Blues</Link>
+                </li>
+                <li>
+                    <Link to="/Rock">Rock</Link>
+                </li>
+                <li>
+                    <Link to="/HipHop">HipHop</Link>
+                </li>
+                <li>
+                    <Link to="/Gospel">Gospel</Link>
+                </li>
+                <li>
                     <Link to="/Perfil">Perfil</Link>
                 </li>
             </ul>

@@ -5,6 +5,10 @@ import Inicio from '../../views/contents/Inicio'
 import NaoEncontrado from '../../views/contents/NaoEncontrado'
 import Login from '../../views/contents/Login'
 import Soul from '../../views/contents/Soul'
+import Blues from '../../views/contents/Blues'
+import Rock from '../../views/contents/Rock'
+import HipHop from '../../views/contents/HipHop'
+import Gospel from '../../views/contents/Gospel'
 import Perfil from '../../views/contents/Perfil'
 
 const Content = props=> (
@@ -21,6 +25,18 @@ const Content = props=> (
             </Route>
             <Route exact path="/Soul">
                 <Soul />
+                </Route>
+            <Route exact path="/Blues">
+                <Blues />   
+            </Route>
+            <Route exact path="/Rock">
+                <Rock />
+            </Route>
+            <Route exact path="/HipHop">
+                <HipHop />
+            </Route>
+            <Route exact path="/Gospel">
+                <Gospel />
             </Route>
             <Route path="*">
                 <NaoEncontrado />
