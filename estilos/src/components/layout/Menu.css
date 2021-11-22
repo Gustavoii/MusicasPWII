@@ -1,0 +1,43 @@
+.Menu {
+    display: flex;
+    flex-basis: 250px;
+    background-color: rgba(0, 0, 0, 0.50);
+   
+}
+
+.Menu nav {
+    flex: 1;
+    width: 150px;
+    height: 100%;
+}
+
+.Menu ul {
+    list-style: none;
+    padding: 0;
+    height: 100%;
+    
+}
+
+.Menu li {
+    display: flex;
+    height: 70px;
+    padding: 0px;
+}
+
+.Menu li a {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: 	#020103;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.Menu li a:hover {
+    background-color: rgba(54,54,54);
+    color: #993399;
+    transition: 1s;
+}
