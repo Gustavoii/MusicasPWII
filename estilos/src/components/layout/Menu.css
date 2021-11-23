@@ -1,7 +1,7 @@
 .Menu {
     display: flex;
     flex-basis: 250px;
-    background-color: rgba(0, 0, 0, 0.50);
+    background-color: rgba(60,20,60, 0.50);
    
 }
 
@@ -30,14 +30,14 @@
     margin-bottom: 10px;
     text-decoration: none;
     text-align: center;
-    color: 	#020103;
+    color: 	;
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     
 }
 
 .Menu li a:hover {
-    background-color: rgba(54,54,54);
-    color: #993399;
+    background-color: rgb(255, 251, 0);
+    color: #000000;
     transition: 1s;
 }

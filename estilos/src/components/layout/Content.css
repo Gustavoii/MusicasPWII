@@ -13,13 +13,13 @@
 }
 
 .titulo {
-    background-color: lightgray;
+    background-color:  #993399;
     border-bottom: 5px solid black;
     align-items: right;
     justify-content: center;
     padding: 10px;
     margin-bottom: 20px;
-    color: #14273e;
+    color: yellowgreen;
     text-align: center;
     font-family: Arial;
     font-size: 30px;
