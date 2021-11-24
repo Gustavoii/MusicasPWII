@@ -1,3 +1,7 @@
+body {
+    background-image: url(inicio.jpg);
+}
+
 a {
     text-decoration: none;
 }

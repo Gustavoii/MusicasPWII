@@ -18,8 +18,8 @@ const UseState = prosp => {
     return (
         <div>
             <div className="titulo">
-                <h1>Login</h1>
-                <h2>Seja bem vindo!!</h2>
+                <h1>Olá</h1>
+                <h2>Sejá bem vindo!</h2>
             </div>
 
            <div className="conteudo">
@@ -46,8 +46,8 @@ const UseState = prosp => {
 
             <button
                 className="botao"
-                onClick={ () => alteraNomeContexto(nome) }
-                >Alterar contexto (Store</button>
+             onClick={ () => alteraNomeContexto(nome)}>
+                    Salvar</button>
            </div>
         </div>
     )

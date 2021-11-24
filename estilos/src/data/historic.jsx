@@ -7,7 +7,7 @@ const contextoInicial = {
 
 export const AppContexto = React.createContext(contextoInicial)
 
-const Store = props => {
+const Historic = props => {
 
     const [contexto, setContexto] = useState(contextoInicial)
 
@@ -29,4 +29,4 @@ const Store = props => {
         </AppContexto.Provider>
     )
 }
-export default Store
+export default Historic

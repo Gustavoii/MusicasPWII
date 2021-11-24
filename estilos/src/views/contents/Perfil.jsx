@@ -11,13 +11,10 @@ const UseContext = props => {
     return (
         <div>
             <div className="titulo">
-                <h1>useContext</h1>
-                <h2>Aceite um objeto de contexto e retorn o valor atual do contexto</h2>
+                <h1>Olá</h1>
             </div>
 
             <div className="conteudo">
-
-                <label className="campo">Acesso encapsulado ao Contexto (Store)</label>
                 <p className="mensagem">Nome: {contextoNome}</p>
                 <p className="mensagem">Senha: {contextoSenha}</p>
             </div>

@@ -1,7 +1,7 @@
 import './Content.css'
 import React from "react"
 import { Switch, Route} from 'react-router-dom'
-import Inicio from '../../views/contents/Inicio'
+import Inicio from '../../views/contents/Inicio.jsx'
 import NaoEncontrado from '../../views/contents/NaoEncontrado'
 import Login from '../../views/contents/Login'
 import Soul from '../../views/contents/Soul'
@@ -14,7 +14,7 @@ import Perfil from '../../views/contents/Perfil'
 const Content = props=> (
     <main clasName="Content">
         <Switch>
-            <Route exact path="/">
+            <Route exact path="/Inicio">
                 <Inicio />
             </Route>
             <Route exact path="/Login">

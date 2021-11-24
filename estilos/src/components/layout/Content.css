@@ -14,21 +14,23 @@
 
 .titulo {
     background-color:  #993399;
-    border-bottom: 5px solid black;
-    align-items: right;
+    align-items: center;
     justify-content: center;
     padding: 10px;
     margin-bottom: 20px;
-    color: yellowgreen;
+    color: yellow;
     text-align: center;
     font-family: Arial;
     font-size: 30px;
+    width: 100%;
+    margin: 0;
 }
 
 .titulo h1, h2 {
     margin: 0;
     width: 100%;
 }
+
 
 .conteudo {
     display: flex;
@@ -51,4 +53,5 @@
     font-family: Arial;
     text-align: justify;
     font-size: 25px;
+    color: red;
 }

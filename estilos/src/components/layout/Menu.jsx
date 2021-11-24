@@ -7,7 +7,7 @@ const Menu = props => (
         <nav>
             <ul>
                 <li>
-                    <Link to="/Inico">Inico</Link>
+                    <Link to="/Inicio">Inicio</Link>
                 </li>
                 <li>
                     <Link to="/Login">Login</Link>
