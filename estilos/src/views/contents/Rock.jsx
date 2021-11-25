@@ -4,7 +4,7 @@ import React from 'react'
 const Hooks = props => (
     <div>
         <div className="titulo">
-            <h1>Soul</h1>
+            <h1>Rock</h1>
         </div>
 
         <div className="Soul">

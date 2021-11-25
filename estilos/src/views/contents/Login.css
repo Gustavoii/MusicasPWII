@@ -8,19 +8,25 @@
     align-items: center;
 }
 .campo:hover{
-    background-color: blue;
+    background-color:rgb(255,0,0, 0.85);
 }
 
 .botao {
     border-radius: 5px;
     margin: 10px;
     padding: 7px;
-    background-color: #14273e;
+    background-color: #d80000;
     border-width: 1px;
-    border-color: gray;
+    border-color: black;
     width: 50%;
+    box-shadow: 0px 2px 15px black;
     font-size: 1.2rem;
     color: #fff;
+}
+.botao:hover{
+        transition: 0.2s;
+        box-shadow: 0px 2px 20px red;
+        padding: 7px;
 }
 
 .mensagem {
